@@ -1,0 +1,6 @@
+framework module Pods_chat_app_using_mesibo {
+  umbrella header "Pods-chat app using mesibo-umbrella.h"
+
+  export *
+  module * { export * }
+}

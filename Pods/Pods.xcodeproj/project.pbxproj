@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0CEFF2D421D73DBFD4B88DB2894CFE57 /* mesibo */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FA3888E71965B0A34785B99B78B7998D /* Build configuration list for PBXAggregateTarget "mesibo" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = mesibo;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		14F6569A5C8B9378A794F661230EFC82 /* Pods-chat app using mesibo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 354D27FC8238D69395594646F9B28000 /* Pods-chat app using mesibo-dummy.m */; };
+		CF5202AC8099BB878022CF99DF971FFE /* Pods-chat app using mesibo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A3382A6B7AA612B36B570FE3717DC9 /* Pods-chat app using mesibo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE40BEC7CB2B0587AF701F67CB219213 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		648EFDA1D6D3929839A9580FEE2A65B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CEFF2D421D73DBFD4B88DB2894CFE57;
+			remoteInfo = mesibo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14A3382A6B7AA612B36B570FE3717DC9 /* Pods-chat app using mesibo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-chat app using mesibo-umbrella.h"; sourceTree = "<group>"; };
+		1C4E6C14E811DF27105E0E199111E489 /* Pods-chat app using mesibo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-chat app using mesibo-acknowledgements.plist"; sourceTree = "<group>"; };
+		2B44B550F2892CB45F51E7AE44EA1F01 /* Pods_chat_app_using_mesibo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_chat_app_using_mesibo.framework; path = "Pods-chat app using mesibo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		354D27FC8238D69395594646F9B28000 /* Pods-chat app using mesibo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-chat app using mesibo-dummy.m"; sourceTree = "<group>"; };
+		378B16D552B3A10D7EB2B2FE430FF8F5 /* mesibo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mesibo.framework; sourceTree = "<group>"; };
+		43EA71788E38A2BB2B69AD0110F2D044 /* Pods-chat app using mesibo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-chat app using mesibo.modulemap"; sourceTree = "<group>"; };
+		68CD1467FCB74FF67826A59956D576EF /* Pods-chat app using mesibo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-chat app using mesibo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		72857BE20E618BF21E2931D02209AB49 /* Pods-chat app using mesibo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-chat app using mesibo-Info.plist"; sourceTree = "<group>"; };
+		966F98063BBCC3761CC7A3E7489D0A0E /* Pods-chat app using mesibo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-chat app using mesibo.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CCCC27AA0F494B7178AC7B7DD533D0B8 /* Pods-chat app using mesibo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-chat app using mesibo.release.xcconfig"; sourceTree = "<group>"; };
+		D925E83C82FB7CFA30ACDB8C8B86D3E8 /* mesibo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mesibo.debug.xcconfig; sourceTree = "<group>"; };
+		EE6092293311E7411A77E677D62D9A94 /* mesibo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mesibo.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18971DC05E14482A1C144AA717994075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE40BEC7CB2B0587AF701F67CB219213 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C2AF2FA309BA1179D40ABA37070EE61 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D925E83C82FB7CFA30ACDB8C8B86D3E8 /* mesibo.debug.xcconfig */,
+				EE6092293311E7411A77E677D62D9A94 /* mesibo.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/mesibo";
+			sourceTree = "<group>";
+		};
+		5E66188B7698A768D4811CB215DD144C /* mesibo */ = {
+			isa = PBXGroup;
+			children = (
+				AEEDD1A15E5160F07DF7EEF6A692889A /* Frameworks */,
+				1C2AF2FA309BA1179D40ABA37070EE61 /* Support Files */,
+			);
+			name = mesibo;
+			path = mesibo;
+			sourceTree = "<group>";
+		};
+		7100EAB3A68F7F98508C97249551076D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B44B550F2892CB45F51E7AE44EA1F01 /* Pods_chat_app_using_mesibo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A9DFC9E2624FC1C8BA4DACC74F89646 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDA956648C53C286AED27862669631A5 /* Pods-chat app using mesibo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AEEDD1A15E5160F07DF7EEF6A692889A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				378B16D552B3A10D7EB2B2FE430FF8F5 /* mesibo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E402361BB6697D42365C7E17FE394A25 /* Pods */,
+				7100EAB3A68F7F98508C97249551076D /* Products */,
+				7A9DFC9E2624FC1C8BA4DACC74F89646 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E402361BB6697D42365C7E17FE394A25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E66188B7698A768D4811CB215DD144C /* mesibo */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDA956648C53C286AED27862669631A5 /* Pods-chat app using mesibo */ = {
+			isa = PBXGroup;
+			children = (
+				43EA71788E38A2BB2B69AD0110F2D044 /* Pods-chat app using mesibo.modulemap */,
+				68CD1467FCB74FF67826A59956D576EF /* Pods-chat app using mesibo-acknowledgements.markdown */,
+				1C4E6C14E811DF27105E0E199111E489 /* Pods-chat app using mesibo-acknowledgements.plist */,
+				354D27FC8238D69395594646F9B28000 /* Pods-chat app using mesibo-dummy.m */,
+				72857BE20E618BF21E2931D02209AB49 /* Pods-chat app using mesibo-Info.plist */,
+				14A3382A6B7AA612B36B570FE3717DC9 /* Pods-chat app using mesibo-umbrella.h */,
+				966F98063BBCC3761CC7A3E7489D0A0E /* Pods-chat app using mesibo.debug.xcconfig */,
+				CCCC27AA0F494B7178AC7B7DD533D0B8 /* Pods-chat app using mesibo.release.xcconfig */,
+			);
+			name = "Pods-chat app using mesibo";
+			path = "Target Support Files/Pods-chat app using mesibo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1AD06CFF2960B0436C47C296B462ED9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5202AC8099BB878022CF99DF971FFE /* Pods-chat app using mesibo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DA45DAB42BCE8CEF0F0DB7872FC4C710 /* Pods-chat app using mesibo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEFAE81B4E026C2DB1784AD755EFA45C /* Build configuration list for PBXNativeTarget "Pods-chat app using mesibo" */;
+			buildPhases = (
+				1AD06CFF2960B0436C47C296B462ED9D /* Headers */,
+				53F3E10C2459F31D5F7B88E3932A522D /* Sources */,
+				18971DC05E14482A1C144AA717994075 /* Frameworks */,
+				A898E79D50DD8614EFDBC696E856D0CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				441CA59AFEAABDAC263A2189EA9C5ED2 /* PBXTargetDependency */,
+			);
+			name = "Pods-chat app using mesibo";
+			productName = "Pods-chat app using mesibo";
+			productReference = 2B44B550F2892CB45F51E7AE44EA1F01 /* Pods_chat_app_using_mesibo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7100EAB3A68F7F98508C97249551076D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CEFF2D421D73DBFD4B88DB2894CFE57 /* mesibo */,
+				DA45DAB42BCE8CEF0F0DB7872FC4C710 /* Pods-chat app using mesibo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A898E79D50DD8614EFDBC696E856D0CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53F3E10C2459F31D5F7B88E3932A522D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F6569A5C8B9378A794F661230EFC82 /* Pods-chat app using mesibo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		441CA59AFEAABDAC263A2189EA9C5ED2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mesibo;
+			target = 0CEFF2D421D73DBFD4B88DB2894CFE57 /* mesibo */;
+			targetProxy = 648EFDA1D6D3929839A9580FEE2A65B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D568AECBF7987F1B3FDCDB9CC626CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 966F98063BBCC3761CC7A3E7489D0A0E /* Pods-chat app using mesibo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-chat app using mesibo/Pods-chat app using mesibo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-chat app using mesibo/Pods-chat app using mesibo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2A1B23CA613EF9533907DBE1E75AB2B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCCC27AA0F494B7178AC7B7DD533D0B8 /* Pods-chat app using mesibo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-chat app using mesibo/Pods-chat app using mesibo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-chat app using mesibo/Pods-chat app using mesibo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2EC6ECE73542451D9C6BE64086260142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE6092293311E7411A77E677D62D9A94 /* mesibo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E350FE6D7DAE1250F91B4250F5E5F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D925E83C82FB7CFA30ACDB8C8B86D3E8 /* mesibo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEFAE81B4E026C2DB1784AD755EFA45C /* Build configuration list for PBXNativeTarget "Pods-chat app using mesibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D568AECBF7987F1B3FDCDB9CC626CAE /* Debug */,
+				2A1B23CA613EF9533907DBE1E75AB2B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3888E71965B0A34785B99B78B7998D /* Build configuration list for PBXAggregateTarget "mesibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E350FE6D7DAE1250F91B4250F5E5F1F /* Debug */,
+				2EC6ECE73542451D9C6BE64086260142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

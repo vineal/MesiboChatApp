@@ -1,0 +1,16 @@
+PODS:
+  - mesibo (1.0.28)
+
+DEPENDENCIES:
+  - mesibo
+
+SPEC REPOS:
+  trunk:
+    - mesibo
+
+SPEC CHECKSUMS:
+  mesibo: ffaa70a74e3f7c6c4c443c0834a58591bb6ad0fa
+
+PODFILE CHECKSUM: 90b4a2b0936747fb961fa795e81bbd4239af15e1
+
+COCOAPODS: 1.9.3
